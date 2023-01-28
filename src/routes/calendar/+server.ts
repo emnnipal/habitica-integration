@@ -8,3 +8,5 @@ export const POST = (async ({ request }) => {
     message: 'Success',
   });
 }) satisfies RequestHandler;
+
+export const edge = true;
